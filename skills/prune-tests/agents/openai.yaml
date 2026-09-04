@@ -1,0 +1,3 @@
+interface:
+  display_name: "Prune Tests"
+  short_description: "Delete tests that protect change instead of behavior"
