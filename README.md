@@ -1,6 +1,7 @@
 # AI tools
 
-Personal collection of skills for AI coding agents, including local customizations.
+Personal collection of skills for AI coding agents, including local customizations.  This repo is really just so I have a place to keep my skills in sync between my systems all running T3Code.  The skills are mostly from Matt Pocock's skills at https://github.com/mattpocock/skills (these are excellent skills and you should 100% check it out and give him a star if you haven't heard of him already, somehow); the interface skills are from https://github.com/jakubkrehel/skills (I use these when I'm using a GPT model, not so much if using Claude).  Many of the skills have been edited and tweaked to work a bit more how I want them to with Astra, since it's my main driver, and Matt designs his skills around Claude models, for the most part.
+
 This repository contains all 35 skills from `~/.agents/skills`, plus `finish-pr`.
 Supporting references, scripts, and `agents/openai.yaml` files are included.
 
