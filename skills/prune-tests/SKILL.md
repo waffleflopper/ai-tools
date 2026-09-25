@@ -1,6 +1,6 @@
 ---
 name: prune-tests
-description: Audit brittle or tautological tests and, when cleanup is authorized, delete or rewrite them around independently specified behavior.
+description: Audit brittle or tautological tests and, when cleanup is authorized, delete or rewrite them around independently specified behavior.  Use when the user wants or asks to clean up "bad" tests, tautological tests, change-detector tests, or tests that protect the way code is written and not the behavior it implements.
 ---
 
 # Prune tests
