@@ -75,6 +75,10 @@ These groups show where each skill started, even if I've changed it since.
 | --- | --- |
 | [show-me](skills/show-me/SKILL.md) | Explains ideas with diagrams and focused visual examples. |
 
+## Build It Right
+
+[Build It Right](ebook/README.md) is a short book that teaches the principles and playbooks from Lauren Tan's [pstack](https://github.com/cursor/plugins/tree/main/pstack) to people who build with AI agents and don't have a programming background.
+
 ## License
 
 [MIT](LICENSE)
