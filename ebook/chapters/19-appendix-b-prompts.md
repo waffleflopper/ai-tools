@@ -98,6 +98,14 @@ Write a test that reproduces this bug and show me it failing. Then fix it and sh
 You changed a test's expected answer. Why? Was the old answer actually wrong?
 ```
 
+```text
+Look through our tests for change detectors, meaning tests that read the code instead of running it, count things, save snapshots of structure, check which internal steps ran, or repeat another test. List each one. If a real rule is hiding inside it, tell me the smallest test that would check that rule directly. Don't change anything yet.
+```
+
+```text
+Review the tests for this feature. Don't change anything yet. Give each test a verdict of delete, rewrite, or keep, with delete as the default. For each keep or rewrite, answer all six: where the right answer comes from outside the code, what a user would notice if it failed, why the expected answer could disagree with the code, how it uses the code the way users do, why it would survive a rewrite of the insides, and why it's at the lowest level without repeating another test.
+```
+
 ## Bugs and speed
 
 ```text

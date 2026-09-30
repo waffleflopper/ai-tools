@@ -19,7 +19,7 @@ The chapters are Markdown files in [`chapters/`](chapters/), and GitHub renders 
 | [7. Guard the doors](chapters/07-guard-the-doors.md) | Boundaries, types, and security basics. |
 | [8. Plan for things happening twice](chapters/08-plan-for-twice.md) | Retries, crashes, and two users at once. |
 | [9. Prove it works](chapters/09-prove-it-works.md) | Real evidence instead of "it compiles." |
-| [10. Tests that can actually fail](chapters/10-tests-that-can-fail.md) | Telling real tests from fake ones, and writing the failing test first. |
+| [10. Tests that can actually fail](chapters/10-tests-that-can-fail.md) | Telling real tests from fake ones, pruning tests that break for no reason, and writing the failing test first. |
 | [11. Fix bugs at the root](chapters/11-fix-root-causes.md) | Reproducing, root causes, and questioning the diagnosis. |
 | [12. When it's slow](chapters/12-when-its-slow.md) | Measuring, eight kinds of speed fixes, and hillclimbing. |
 | [13. Small steps, clean changes, real review](chapters/13-small-steps.md) | Commits, pull requests, cleanup, and review. |

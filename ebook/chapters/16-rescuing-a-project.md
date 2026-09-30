@@ -66,7 +66,7 @@ Before changing structure, make it possible to detect when something breaks. pst
 - **Automated checks on every change.** Set up CI to run the tests, the linter, and the type checker on every pull request. If your language has a strict type-checking setting, turn it on and see what it finds.
 - **Pin the core flows.** For the handful of things that must never break, record current behavior with characterization tests, as in chapter 14. For ClinicDesk, those are signing up, posting a shift, claiming a shift, reminders, and billing. Write them so they can fail, as chapter 10 describes.
 - **A way to drive the app.** Set up a repeatable way for agents to launch and use the app and capture evidence, as chapter 9 describes.
-- **Prune the fake tests.** Apply chapter 10's check to your existing tests. Tests that would pass even if the code did nothing are giving you false confidence. Rewrite or delete them.
+- **Prune the fake tests.** Apply chapter 10's checks to your existing tests. Tests that would pass even if the code did nothing are giving you false confidence. Tests that break whenever the code changes, even when nothing is wrong, will slow down every restructuring that follows. Get a report first, then rewrite or delete them.
 
 This step feels slow, because nothing visible improves. It's what makes every later step safe.
 
