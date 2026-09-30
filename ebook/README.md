@@ -2,7 +2,7 @@
 
 *Senior engineering habits for people who build with AI agents.*
 
-This book teaches the principles and playbooks from [pstack](https://github.com/cursor/plugins/tree/main/pstack) by Lauren Tan to people who build software with AI agents and don't have a programming background. It's about 30,000 words across 17 chapters and 3 appendices.
+This ebook translates the engineering skills, principles, and lessons learned from [pstack](https://github.com/cursor/plugins/tree/main/pstack), articles, and talks by Lauren Tan (poteto) into plain language for people outside programming and development who want to use AI to make software.
 
 ## Read it
 

@@ -1,6 +1,8 @@
 # AI tools
 
-This repo holds the agent skills I use across my machines, including skills I've written and skills I've picked up from other people. I've tweaked many of those copies for my own workflow, so they may differ from the originals.
+This repo holds the agent skills I use across my machines and [Build It Right](ebook/README.md), an ebook for people without a programming background who want to build software with AI.
+
+The skills include ones I've written and ones I've picked up from other people. I've made many of my skills repo specific so they fit each project's tools, architecture, and conventions. This directory keeps the small set I use across projects, and my copies may differ from the originals.
 
 ## Install on another computer
 
@@ -13,61 +15,27 @@ mkdir -p "$HOME/.agents/skills"
 cp -R skills/. "$HOME/.agents/skills/"
 ```
 
-To update, run `git pull --ff-only` in the clone and copy the skills again. The copy will overwrite matching files in your skill directory, so save any local edits you want to keep.
+To update, run `git pull --ff-only` in the clone and copy the skills again. The copy will overwrite matching files in your skill directory, so save any local edits you want to keep. Copying doesn't remove previously installed skills that have been deleted from this repo; remove those separately if you want to keep the installed set in sync.
 
 ## Skills
 
-These groups show where each skill started, even if I've changed it since.
+These groups show where each skill started, even if I've changed it since. The architecture workflow depends on `codebase-design`, `grilling`, and `domain-modeling`, so those are included too.
 
 ### waffleflopper skills
 
 | Skill | What it does |
 | --- | --- |
-| [finish-pr](skills/finish-pr/SKILL.md) | Takes a PR through review fixes, CI, and merge or handoff. |
 | [prune-tests](skills/prune-tests/SKILL.md) | Audits brittle or tautological tests for removal or rewrite. |
 
 ### From [mattpocock/skills](https://github.com/mattpocock/skills)
 
 | Skill | What it does |
 | --- | --- |
-| [ask-matt](skills/ask-matt/SKILL.md) | Helps pick the right skill for a task. |
 | [code-review](skills/code-review/SKILL.md) | Reviews a change against project standards and the requested behavior. |
 | [codebase-design](skills/codebase-design/SKILL.md) | Helps design clearer module boundaries and interfaces. |
-| [diagnosing-bugs](skills/diagnosing-bugs/SKILL.md) | Works through hard bugs and performance regressions. |
 | [domain-modeling](skills/domain-modeling/SKILL.md) | Builds a shared vocabulary and records design decisions. |
-| [grill-me](skills/grill-me/SKILL.md) | Asks pointed questions to sharpen an idea or plan. |
-| [grill-with-docs](skills/grill-with-docs/SKILL.md) | Sharpens a plan while recording decisions and shared terms. |
 | [grilling](skills/grilling/SKILL.md) | Tests a plan or decision against evidence and tradeoffs. |
-| [handoff](skills/handoff/SKILL.md) | Captures context for another agent to pick up the work. |
-| [implement](skills/implement/SKILL.md) | Implements work from a spec or set of tickets. |
 | [improve-codebase-architecture](skills/improve-codebase-architecture/SKILL.md) | Finds and explores opportunities to improve code structure. |
-| [prototype](skills/prototype/SKILL.md) | Builds a quick prototype to answer a design question. |
-| [research](skills/research/SKILL.md) | Investigates a question using primary sources and saves the findings. |
-| [resolving-merge-conflicts](skills/resolving-merge-conflicts/SKILL.md) | Resolves merge and rebase conflicts using the history behind each change. |
-| [setup-matt-pocock-skills](skills/setup-matt-pocock-skills/SKILL.md) | Sets up the issue tracker and project docs used by the engineering skills. |
-| [tdd](skills/tdd/SKILL.md) | Builds features and fixes bugs with a test-first loop. |
-| [teach](skills/teach/SKILL.md) | Teaches a topic using trusted sources and exercises. |
-| [to-spec](skills/to-spec/SKILL.md) | Turns a conversation into a spec. |
-| [to-tickets](skills/to-tickets/SKILL.md) | Breaks a plan into linked, actionable tickets. |
-| [triage](skills/triage/SKILL.md) | Sorts and verifies issues before implementation. |
-| [wayfinder](skills/wayfinder/SKILL.md) | Maps a large project into decisions that can be resolved one at a time. |
-| [writing-great-skills](skills/writing-great-skills/SKILL.md) | A reference for writing clear, dependable skills. |
-
-### From [jakubkrehel/skills](https://github.com/jakubkrehel/skills)
-
-| Skill | What it does |
-| --- | --- |
-| [better-accessibility](skills/better-accessibility/SKILL.md) | Reviews and improves accessibility. |
-| [better-colors](skills/better-colors/SKILL.md) | Builds palettes and color systems, including contrast checks. |
-| [better-interface](skills/better-interface/SKILL.md) | Reviews an interface across layout, type, color, copy, and accessibility. |
-| [better-layout](skills/better-layout/SKILL.md) | Improves grouping, alignment, spacing, and reading order. |
-| [better-typography](skills/better-typography/SKILL.md) | Refines type choices, sizing, spacing, and wrapping. |
-| [better-ui](skills/better-ui/SKILL.md) | Polishes surfaces, icons, alignment, and motion. |
-| [better-writing](skills/better-writing/SKILL.md) | Improves product copy. |
-| [break](skills/break/SKILL.md) | Stress tests a component across states and scenarios. |
-| [explain-interface](skills/explain-interface/SKILL.md) | Investigates how a web interface was built. |
-| [interface-review](skills/interface-review/SKILL.md) | Gives a detailed review of an interface. |
-| [variant](skills/variant/SKILL.md) | Creates and compares component variations. |
 
 ### From [humanlayer/skills](https://github.com/humanlayer/skills)
 
@@ -77,7 +45,9 @@ These groups show where each skill started, even if I've changed it since.
 
 ## Build It Right
 
-[Build It Right](ebook/README.md) is a short book that teaches the principles and playbooks from Lauren Tan's [pstack](https://github.com/cursor/plugins/tree/main/pstack) to people who build with AI agents and don't have a programming background.
+[Build It Right](ebook/README.md) is an ebook for people outside programming and development who want to use AI to make software. It translates the engineering skills, principles, and lessons from [pstack](https://github.com/cursor/plugins/tree/main/pstack) by Lauren Tan (poteto) into plain language, with practical examples and playbooks.
+
+The book covers how to direct agents, choose simpler designs, verify their work, fix bugs at the cause, and keep software reliable as it grows. Start with [About this book](ebook/chapters/00-about.md) and [chapter 1](ebook/chapters/01-why-this-book.md). The [ebook README](ebook/README.md) has the full chapter list and instructions for building EPUB, HTML, and PDF copies.
 
 ## License
 
